@@ -22,3 +22,11 @@ Detailed technical audit notes, technical findings, and gap analysis details are
 * **Framework Mapping:** Practical alignment of corporate infrastructure with NIST CSF v1.1 and ISC² CC domains.
 * **Risk Auditing & Governance:** Translating raw technical evidence (IAM, Network, Cloud configurations) into compliance outcomes (PASS/FAIL) and strategic risk impacts.
 * **Executive Advisory:** Formulating professional, non-colloquial remediation notes tailored for C-level executives and technical stakeholders.
+
+
+---
+
+## ⚖️ Disclaimer & Legal Notice
+* **Purpose:** This repository is created exclusively for professional portfolio purposes to demonstrate theoretical and practical knowledge in GRC (Governance, Risk, and Compliance) and cybersecurity auditing.
+* **Fictional Context:** All corporate profiles, infrastructure details, application names, vendor references, and clinical/business scenarios described in this project are entirely fictional. Any resemblance to actual organizations, living or dead persons, or real-world business entities is purely coincidental.
+* **Data Privacy:** No real-world organizational data, confidential records, or proprietary vendor information have been used, shared, or compromised in the making of this case study.
