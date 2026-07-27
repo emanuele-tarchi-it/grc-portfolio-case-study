@@ -1,32 +1,32 @@
-# NIST CSF v1.1 Cybersecurity Gap Analysis & Audit Portfolio
+# NIST Cybersecurity Framework (CSF) v1.1 - Portfolio di Gap Analysis & Audit Cybersecurity
 
-This repository contains a comprehensive, simulated Cybersecurity Gap Analysis based on the **NIST Cybersecurity Framework (CSF) v1.1**. 
-The project demonstrates the practical application of Governance, Risk, and Compliance (GRC) principles within a highly regulated corporate environment.
+Questo repository contiene un'analisi approfondita e simulata di Cybersecurity Gap Analysis basata sul **NIST Cybersecurity Framework (CSF) v1.1**. 
+Il progetto dimostra l'applicazione pratica dei principi di Governance, Risk, and Compliance (GRC) all'interno di un contesto aziendale altamente regolamentato.
 
-## 📌 Project Overview
-The analysis evaluates the security posture and maturity level of **Aetheris Therapeutics**, a mid-sized bio-pharmaceutical enterprise handling critical intellectual property, proprietary research formulas, and hybrid cloud/on-premise infrastructure. 
+## 📌 Panoramica del Progetto
+L'analisi valuta la postura di sicurezza e il livello di maturità di **Aetheris Therapeutics S.p.A.**, un'azienda biofarmaceutica di medie dimensioni che gestisce proprietà intellettuale critica, formule di ricerca proprietarie e un'infrastruttura ibrida cloud/on-premise. 
 
-The evaluation systematically reviews organizational controls across the core NIST CSF functions, bridging the gap between technical operations and business-driven risk management.
+La valutazione esamina in modo sistematico i controlli organizzativi attraverso le funzioni core del NIST CSF, colmando il divario tra le operation tecniche e la gestione del rischio orientata al business.
 
-## 🗂️ Portfolio Structure & Deliverables
-The framework architecture and high-level project presentation are maintained in English. 
-Detailed technical audit notes, technical findings, and gap analysis details are documented in **Italian**, reflecting a business case tailored for localized compliance and European regulatory standards (e.g., GDPR).
+## 🗂️ Struttura del Portfolio e Deliverable
+La documentazione tecnica d'audit, la descrizione dell'architettura e i dettagli dei report sono strutturati in **italiano**, rispecchiando un business case sviluppato per la conformità locale e per gli standard normativi europei (es. GDPR).
 
-* 📄 **01_IDENTIFY (ID)** - Asset Management, Risk Assessment, Governance & Vendor Risk (TPRM)
-* 📄 **02_PROTECT (PR)** - Access Control, Data Security (DLP), Patching & Awareness Training
-* 📄 **03_DETECT (DE)** - Anomalies & Events, Security Continuous Monitoring & SIEM Architecture
-* 📄 **04_RESPOND (RS)** - Incident Response Planning, Forensic Capabilities & Escalation Protocols
-* 📄 **05_RECOVER (RC)** - Disaster Recovery, Business Resiliency & Crisis Communications
-* 🎯 **EXECUTIVE_ROADMAP** - 3-Year Strategic Remediation Plan & CISO Cyber Program
+* 📄 **00_CASE_STUDY_AND_INTERVIEWS** - Profilo aziendale, contesto operativo ed evidenze emerse dai colloqui
+* 📄 **01_IDENTIFY (ID)** - Gestione degli Asset, Valutazione del Rischio, Governance e Rischio Terze Parti (TPRM)
+* 📄 **02_PROTECT (PR)** - Controllo degli Accessi, Sicurezza dei Dati (DLP), Patching e Formazione/Awareness
+* 📄 **03_DETECT (DE)** - Rilevamento Anomalie ed Eventi, Monitoraggio Continuo della Sicurezza e Architettura SIEM
+* 📄 **04_RESPOND (RS)** - Pianificazione della Risposta agli Incidenti, Capacità Forensi e Protocolli di Escalation
+* 📄 **05_RECOVER (RC)** - Disaster Recovery, Resilienza Operativa e Comunicazione di Crisi
+* 🎯 **EXECUTIVE_ROADMAP** - Piano Triennale di Remediation Strategica e Programma CISO
 
-## 🎯 Key Skills Demonstrated
-* **Framework Mapping:** Practical alignment of corporate infrastructure with NIST CSF v1.1 and ISO/IEC 27001 Annex A controls.
-* **Risk Auditing & Governance:** Translating raw technical evidence (IAM, Network, Cloud configurations) into compliance outcomes (PASS/FAIL) and strategic risk impacts.
-* **Executive Advisory:** Formulating professional, non-colloquial remediation notes tailored for C-level executives, Board Members, and technical stakeholders.
+## 🎯 Competenze Chiave Dimostrate
+* **Mappatura dei Framework:** Allineamento pratico dell'infrastruttura aziendale con i controlli del NIST CSF v1.1 e dell'Allegato A della ISO/IEC 27001.
+* **Audit del Rischio & Governance:** Traduzione delle evidenze tecniche (IAM, Rete, Configurazioni Cloud) in esiti di conformità (PASS/FAIL) e impatti di rischio strategico.
+* **Executive Advisory:** Formulazione di note di remediation professionali e formali, modellate per dirigenti C-level, membri del Board e stakeholder tecnici.
 
 ---
 
-## ⚖️ Disclaimer & Legal Notice
-* **Purpose:** This repository is created exclusively for personal professional portfolio purposes to demonstrate theoretical and practical knowledge in GRC (Governance, Risk, and Compliance) and cybersecurity auditing.
-* **Fictional Context:** All corporate entities (e.g., Aetheris Therapeutics), individual names, infrastructure configurations, vendor references, and clinical/business scenarios described in this repository are entirely fictional. Any resemblance to real companies, organizations, or individuals is purely coincidental.fictional. Any resemblance to actual organizations, living or dead persons, or real-world business entities is purely coincidental.
-* **Data Privacy:** No real-world organizational data, confidential records, or proprietary vendor information have been used, shared, or compromised in the making of this case study.
+## ⚖️ Disclaimer e Note Legali
+* **Finalità:** Questo repository è stato creato esclusivamente per scopi di portfolio professionale personale, per dimostrare le competenze teoriche e pratiche nell'ambito GRC (Governance, Risk, and Compliance) e nell'audit della sicurezza informatica.
+* **Contesto Fittizio:** Tutte le entità aziendali (es. Aetheris Therapeutics S.p.A.), i nomi di persone, le configurazioni infrastrutturali, i riferimenti ai fornitori e gli scenari clinici/aziendali descritti in questo repository sono interamente fittizi. Qualsiasi analogia con aziende, organizzazioni o persone reali è pura coincidenza.
+* **Protezione dei Dati:** Nessun dato organizzativo reale, record confidenziale o informazione proprietaria di fornitori è stato utilizzato, condiviso o compromesso per la realizzazione di questo caso studio.
