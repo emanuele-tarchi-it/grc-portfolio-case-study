@@ -13,14 +13,18 @@ Questo repository raccoglie valutazioni reali e simulate di gap analysis, audit 
 ## 🗂️ Indice dei Casi Studio
 
 ### 🔬 [01. Aetheris Therapeutics S.p.A. — Enterprise Gap Analysis & ISO 27001 Readiness](./01-aetheris-therapeutics)
+
 Valutazione approfondita della postura di sicurezza e del livello di maturità di un'azienda biofarmaceutica di medie dimensioni che gestisce proprietà intellettuale critica e dati clinici (PII). Il progetto applica una strategia di **Dual-Compliance** incrociando i framework **NIST CSF v1.1** e **ISO/IEC 27001:2022**.
 
-📂 **[Esplora la cartella del progetto](./01-aetheris-therapeutics)**
-📄 **Deliverables PDF Principali**:
-* 📂 [NIST CSF v1.1 Gap Analysis Consolidata (PDF)](01-aetheris-therapeutics/docs/Aetheris_Therapeutics_NIST_CSF_Gap_Analysis_Consolidated.pdf)
-* 📂 [Case Study & Fieldwork Evidences (PDF)](01-aetheris-therapeutics/docs/Aetheris_Therapeutics_Case_Study_and_Interviews.pdf)
-* 📂 [ISO 27001:2022 Mandatory Clauses Audit Report (PDF)](01-aetheris-therapeutics/docs/Aetheris_Therapeutics_ISO27001_Mandatory_Clauses_Audit.pdf)
-* 📂 [ISO 27001:2022 Statement of Applicability - SoA Evaluated (PDF)](01-aetheris-therapeutics/docs/Aetheris_Therapeutics_ISO27001_Annex_A_SoA_Evaluated.pdf)
+* 📁 **Cartella di Progetto:** [Esplora repository e sorgenti Markdown](./01-aetheris-therapeutics)
+
+* 📄 **Deliverables PDF Principali (`/docs`):**
+  * 📂 [NIST CSF v1.1 Gap Analysis Consolidata (PDF)](01-aetheris-therapeutics/docs/Aetheris_Therapeutics_NIST_CSF_Gap_Analysis_Consolidated.pdf)
+  * 📂 [Case Study & Fieldwork Evidences (PDF)](01-aetheris-therapeutics/docs/Aetheris_Therapeutics_Case_Study_and_Interviews.pdf)
+  * 📂 [ISO 27001:2022 Mandatory Clauses Audit Report (PDF)](01-aetheris-therapeutics/docs/Aetheris_Therapeutics_ISO27001_Mandatory_Clauses_Audit.pdf)
+  * 📂 [ISO 27001:2022 Statement of Applicability - SoA Evaluated (PDF)](01-aetheris-therapeutics/docs/Aetheris_Therapeutics_ISO27001_Annex_A_SoA_Evaluated.pdf)
+
+---
 
 ---
 
