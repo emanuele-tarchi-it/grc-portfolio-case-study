@@ -28,9 +28,14 @@ Valutazione approfondita della postura di sicurezza e del livello di maturità d
 
 ---
 
-### 🚀 Casi Studio Futuri (In Programmazione)
-* 🟡 **02. DORA / NIS2 Compliance Framework Assessment** — Valutazione della resilienza operativa e gestione del rischio ICT.
-* 🟡 **03. Third-Party Risk Management (TPRM) Audit & Vendor Assessment** — Framework di valutazione del rischio supply chain.
+### 🚀 Casi Studio GRC & AI Governance
+
+* 🟢 **01. Tuscany Triage System — EU AI Act & MDR Compliance Framework**  
+  Valutazione della conformità per sistemi AI ad Alto Rischio (EU AI Act, Art. 9-14) e classificazione SaMD Class IIa (MDR UE 2017/745, Regola 11). Implementazione di meccanismi *Human-in-the-Loop*, mitigazione del *bias* di automazione e registro di audit non ripudiabile (ISO 27001 / NIS2).  
+  👉 **[Vedi la Repository & Documentazione GRC](https://github.com/emanuele-tarchi-it/medical-triage-system)**
+
+* 🟡 **02. DORA / NIS2 Compliance Framework Assessment** — Valutazione della resilienza operativa digitale e gestione del rischio ICT per infrastrutture critiche.
+* 🟡 **03. Third-Party Risk Management (TPRM) Audit & Vendor Assessment** — Framework di valutazione e gestione del rischio della supply chain e dei fornitori terzi.
 
 ---
 
