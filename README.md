@@ -22,19 +22,23 @@ La valutazione esamina in modo sistematico i controlli organizzativi, procedural
 
 ## 🗂️ Struttura del Portfolio e Deliverables
 
-Tutti i report tecnici, i domandari d'audit e i deliverables operativi sono stati tradotti, contestualizzati e formattati in **report PDF ad alto impatto executive** (disponibili nella cartella `docs/`):
+### 📄 Report Executive e PDF Ufficiali (`/docs`)
+* 📂 [NIST CSF v1.1 Gap Analysis Consolidata (PDF)](docs/Aetheris_Therapeutics_NIST_CSF_Gap_Analysis_Consolidated.pdf)  
+  *Report completo di 10 pagine con l'analisi dei 5 domini core NIST, esiti d'audit (PASS/FAIL/NA) e motivazioni tecniche.*
+* 📂 [ISO/IEC 27001:2022 — Mandatory Clauses Checklist (PDF)](docs/iso27001_mandatory_clauses_checklist.pdf)  
+  *Guida operativa d'ispezione per Lead Auditor sui 30 requisiti normativi obbligatori delle Clausole 4–10.*
+* 📂 [ISO/IEC 27001:2022 — Annex A & SoA Toolkit (PDF)](docs/iso27001_annex_a_checklist.pdf)  
+  *Strumento per la Statement of Applicability (SoA) sui 93 controlli suddivisi nei 4 temi ufficiali.*
 
-### 📄 1. Report Consolidato NIST CSF v1.1
-* 📂 **`docs/Aetheris_Therapeutics_NIST_CSF_Gap_Analysis_Consolidated.pdf`**
-  * Report completo di 10 pagine contenente l'analisi dettagliata di tutti i controlli per le 5 macro-funzioni (*Identify, Protect, Detect, Respond, Recover*), completo di esiti d'audit (PASS/FAIL/NA) e motivazioni tecniche.
-
-### 📄 2. ISO/IEC 27001:2022 — Mandatory Clauses Checklist (4 - 10)
-* 📂 **`docs/iso27001_mandatory_clauses_checklist.pdf`**
-  * Guida operativa d'ispezione per Lead Auditor con l'analisi dei 30 requisiti normativi obbligatori delle clausole da 4 a 10 e domandario chiave di verifica.
-
-### 📄 3. ISO/IEC 27001:2022 — Annex A & SoA Toolkit (93 Controlli)
-* 📂 **`docs/iso27001_annex_a_checklist.pdf`**
-  * Strumento operativo per la formulazione della Statement of Applicability (SoA), con schede dei 93 controlli suddivisi nei 4 temi ufficiali (*Organisational, People, Physical, Technological*).
+### 📝 Documentazione di Dettaglio e Sorgenti (`/markdown`)
+Per la consultazione rapida e nativa all'interno di GitHub:
+* 📄 [00 — Case Study & Interviews](markdown/00_Case_Study_and_Interviews.md) *(Profilo aziendale, interviste ed evidenze)*
+* 📄 [01 — Identify (ID)](markdown/01_Identify.md) *(Asset Management, Risk Assessment, Governance)*
+* 📄 [02 — Protect (PR)](markdown/02_Protect.md) *(Access Control, Data Security, Patching, Training)*
+* 📄 [03 — Detect (DE)](markdown/03_Detect.md) *(Anomaly Detection, Continuous Monitoring, SIEM)*
+* 📄 [04 — Respond (RS)](markdown/04_Respond.md) *(Incident Response, Digital Forensics, Escalation)*
+* 📄 [05 — Recover (RC)](markdown/05_Recover.md) *(Disaster Recovery, Resilienza Operativa, PR/Crisis)*
+* 🎯 [Executive Roadmap](markdown/Executive_Roadmap.md) *(Piano Triennale di Remediation Strategica)*
 
 ---
 
