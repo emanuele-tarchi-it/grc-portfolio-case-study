@@ -1,60 +1,45 @@
-# 🛡️ Enterprise Cybersecurity Gap Analysis & ISO 27001 Readiness
+# 🛡️ GRC & Cybersecurity Audit Portfolio
 
-![NIST CSF v1.1](https://img.shields.io/badge/Framework-NIST%20CSF%20v1.1-blue)
-![ISO/IEC 27001:2022](https://img.shields.io/badge/Standard-ISO%2FIEC%2027001%3A2022-green)
-![Domain](https://img.shields.io/badge/Domain-GRC%20%26%20Cyber%20Audit-orange)
+![Portfolio Status](https://img.shields.io/badge/Portfolio-Active-brightgreen)
+![Domain](https://img.shields.io/badge/Domain-GRC%20%26%20Cybersecurity%20Audit-orange)
+![Standards](https://img.shields.io/badge/Standards-NIST%20CSF%20%7C%20ISO%2027001-blue)
 
-Questo repository contiene un'analisi approfondita di **Cybersecurity Gap Analysis** e **Readiness Audit** basata sui framework **NIST Cybersecurity Framework (CSF) v1.1** e **ISO/IEC 27001:2022**. 
+Benvenuto nel mio repository contenitore dedicato ai progetti e ai casi studio di **Governance, Risk, and Compliance (GRC)**, **Cybersecurity Audit** e **Framework Compliance**.
 
-Il progetto dimostra l'applicazione pratica dei principi di Governance, Risk, and Compliance (GRC) e la costruzione di un Sistema di Gestione della Sicurezza dell'Informazione (SGSI) all'interno di un contesto aziendale altamente regolamentato.
-
----
-
-## 📌 Panoramica del Progetto
-
-L'analisi valuta la postura di sicurezza e il livello di maturità di **Aetheris Therapeutics S.p.A.**, un'azienda biofarmaceutica di medie dimensioni che gestisce proprietà intellettuale critica, formule di ricerca proprietarie, brevetti terapeutici e un'infrastruttura ibrida cloud/on-premise.
-
-La valutazione esamina in modo sistematico i controlli organizzativi, procedurali e tecnologici:
-1. **NIST CSF v1.1:** Mappatura della resilienza operativa sui 5 domini core (*Identify, Protect, Detect, Respond, Recover*).
-2. **ISO/IEC 27001:2022:** Verifiche ispettive sulle **Clausole Obbligatorie (4-10)** e compilazione della **Statement of Applicability (SoA)** sui **93 controlli dell'Annex A**.
+Questo repository raccoglie valutazioni reali e simulate di gap analysis, audit di conformità e roadmap strategiche di remediation per aziende operanti in settori ad alto rischio o regolamentati.
 
 ---
 
-## 🗂️ Struttura del Portfolio e Deliverables
+## 🗂️ Indice dei Casi Studio
 
-### 📄 Executive Audit Reports & Deliverables (`/docs`)
-* 📂 [NIST CSF v1.1 Gap Analysis Consolidata (PDF)](docs/Aetheris_Therapeutics_NIST_CSF_Gap_Analysis_Consolidated.pdf)  
-  *Report completo di 10 pagine con l'analisi dei 5 domini core NIST, esiti d'audit (PASS/FAIL/NA) e motivazioni tecniche.*
-* 📂 [Case Study & Interviews Fieldwork Evidences (PDF)](docs/Aetheris_Therapeutics_Case_Study_and_Interviews.pdf)  
-  *Profilo di Aetheris Therapeutics S.p.A. e sintesi analitica delle interviste d'audit con gli stakeholder.*
-* 📂 [ISO/IEC 27001:2022 — Mandatory Clauses Audit Report (PDF)](docs/Aetheris_Therapeutics_ISO27001_Mandatory_Clauses_Audit.pdf)  
-  *Valutazione d'audit formale sui 30 requisiti normativi obbligatori delle Clausole 4–10 con rilievi ed evidenze.*
-* 📂 [ISO/IEC 27001:2022 — Statement of Applicability (SoA) Evaluated (PDF)](docs/Aetheris_Therapeutics_ISO27001_Annex_A_SoA_Evaluated.pdf)  
-  *Dichiarazione di Applicabilità (SoA) compilata e valutata sui 93 controlli dell'Annex A con giustificazioni tecniche.*
+### 🔬 [01. Aetheris Therapeutics S.p.A. — Enterprise Gap Analysis & ISO 27001 Readiness](./01-aetheris-therapeutics)
+Valutazione approfondita della postura di sicurezza e del livello di maturità di un'azienda biofarmaceutica di medie dimensioni che gestisce proprietà intellettuale critica e dati clinici (PII). Il progetto applica una strategia di **Dual-Compliance** incrociando i framework **NIST CSF v1.1** e **ISO/IEC 27001:2022**.
 
-### 📝 Documentazione di Dettaglio e Sorgenti (`/markdown`)
-Per la consultazione rapida e nativa all'interno di GitHub:
-* 📄 [00 — Case Study & Interviews](markdown/00_Case_Study_and_Interviews.md) *(Profilo aziendale, interviste ed evidenze)*
-* 📄 [01 — Identify (ID)](markdown/01_Identify.md) *(Asset Management, Risk Assessment, Governance)*
-* 📄 [02 — Protect (PR)](markdown/02_Protect.md) *(Access Control, Data Security, Patching, Training)*
-* 📄 [03 — Detect (DE)](markdown/03_Detect.md) *(Anomaly Detection, Continuous Monitoring, SIEM)*
-* 📄 [04 — Respond (RS)](markdown/04_Respond.md) *(Incident Response, Digital Forensics, Escalation)*
-* 📄 [05 — Recover (RC)](markdown/05_Recover.md) *(Disaster Recovery, Resilienza Operativa, PR/Crisis)*
-* 🎯 [Executive Roadmap](markdown/Executive_Roadmap.md) *(Piano Triennale di Remediation Strategica)*
+* 📂 **[Esplora la cartella del progetto](./01-aetheris-therapeutics)**
+* 📄 **Deliverables PDF Principali**:
+  * [NIST CSF v1.1 Gap Analysis Consolidata (PDF)](./01-aetheris-therapeutics/docs/Aetheris_Therapeutics_NIST_CSF_Gap_Analysis_Consolidated.pdf)
+  * [Case Study & Fieldwork Evidences (PDF)](./01-aetheris-therapeutics/docs/Aetheris_Therapeutics_Case_Study_and_Interviews.pdf)
+  * [ISO 27001:2022 Mandatory Clauses Audit Report (PDF)](./01-aetheris-therapeutics/docs/Aetheris_Therapeutics_ISO27001_Mandatory_Clauses_Audit.pdf)
+  * [ISO 27001:2022 Statement of Applicability - SoA Evaluated (PDF)](./01-aetheris-therapeutics/docs/Aetheris_Therapeutics_ISO27001_Annex_A_SoA_Evaluated.pdf)
 
 ---
 
-## 🎯 Competenze Chiave Dimostrate
+### 🚀 Casi Studio Futuri (In Programmazione)
+* 🟡 **02. DORA / NIS2 Compliance Framework Assessment** — Valutazione della resilienza operativa e gestione del rischio ICT.
+* 🟡 **03. Third-Party Risk Management (TPRM) Audit & Vendor Assessment** — Framework di valutazione del rischio supply chain.
 
-* **Mappatura dei Framework & Dual-Compliance:** Allineamento dell'infrastruttura aziendale sia ai requisiti di resilienza del NIST CSF che alla struttura prescrittiva ISO 27001.
-* **Audit del Rischio & Technical Evidence:** Traduzione delle evidenze tecniche (IAM, Rete, EDR, SIEM, PAM, Cloud) in rilievi d'audit e valutazioni di impatto sul business.
-* **Statement of Applicability (SoA):** Definizione formale dei perimetri d'applicazione (Scope) e giustificazione d'inclusione/esclusione dei controlli di sicurezza.
-* **Executive Advisory & Reporting:** Formulazione di note di remediation e reportistica executive orientata a CISO, Board e organi di Governance.
+---
+
+## 🎯 Competenze Chiave Dimostrate nel Portfolio
+
+* **Framework Mapping & Compliance Integrata:** Allineamento operativo tra controlli NIST CSF v1.1 e requisiti ISO/IEC 27001:2022.
+* **Audit del Rischio & Rilievi Tecnici:** Traduzione delle evidenze infrastrutturali (IAM, EDR, SIEM, PAM, Cloud Azure) in esiti d'audit (PASS/FAIL) e impatti sul business.
+* **Statement of Applicability (SoA):** Definizione formale di perimetri d'applicazione (Scope) e giustificazioni d'inclusione/esclusione dei controlli.
+* **Executive Advisory:** Formulazione di report d'audit e roadmap triennali di remediation per Board e CISO.
 
 ---
 
 ## ⚖️ Disclaimer e Note Legali
 
-* **Finalità:** Questo repository è stato creato esclusivamente per scopi di portfolio professionale personale, per dimostrare le competenze teoriche e pratiche nell'ambito GRC (Governance, Risk, and Compliance) e nell'audit della sicurezza informatica.
-* **Contesto Fittizio:** Tutte le entità aziendali (es. *Aetheris Therapeutics S.p.A.*), i nomi di persone, le configurazioni infrastrutturali, i riferimenti ai fornitori e gli scenari descritti in questo repository sono interamente fittizi. Qualsiasi analogia con aziende, organizzazioni o persone reali è pura coincidenza.
-* **Protezione dei Dati:** Nessun dato organizzativo reale, record confidenziale o informazione proprietaria di fornitori è stato utilizzato, condiviso o compromesso per la realizzazione di questo caso studio.
+* **Finalità:** Questo repository ha scopi esclusivamente dimostrativi e di portfolio professionale personale per attestare competenze teorico-pratiche nell'ambito GRC e Audit Cyber.
+* **Contesto Fittizio:** Tutte le entità aziendali, i dati societari, le configurazioni e gli scenari descritti sono interamente fittizi.
