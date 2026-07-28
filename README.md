@@ -26,22 +26,30 @@ Valutazione approfondita della postura di sicurezza e del livello di maturità d
 
 ---
 
+### 🏥 [02. Tuscany Triage System — EU AI Act & MDR Compliance Framework](https://github.com/emanuele-tarchi-it/medical-triage-system)
+
+Valutazione approfondita della conformità per sistemi di supporto alle decisioni cliniche ad Alto Rischio (**EU AI Act**, Art. 9-14) e qualificazione **Software as a Medical Device (SaMD) Classe IIa** (**MDR UE 2017/745**, Regola 11). Il progetto definisce l'architettura di audit, la mitigazione del bias algoritmico e il tracciamento dei log non ripudiabile.
+
+* 📁 **Repository & Sorgenti:** [Esplora codice sorgente e documentazione GRC](https://github.com/emanuele-tarchi-it/medical-triage-system)
+
+* 📄 **Deliverables PDF Principali (`/docs`):**
+  * 📂 [EU AI Act Compliance Audit Report (PDF)](https://github.com/emanuele-tarchi-it/medical-triage-system/blob/main/docs/Medical_Triage_EU_AI_Act_Compliance_Report.pdf)
+  * 📂 [SaMD MDR UE 2017/745 Regulatory Readiness Report (PDF)](https://github.com/emanuele-tarchi-it/medical-triage-system/blob/main/docs/SaMD_MDR_Regulatory_Readiness.pdf)
+
 ---
 
-### 🚀 Casi Studio GRC & AI Governance
+### 🚀 Casi Studio in Programmazione
 
-* ### 🟢 [01. Tuscany Triage System — EU AI Act & MDR Compliance Framework](https://github.com/emanuele-tarchi-it/medical-triage-system) 
-  Valutazione della conformità per sistemi AI ad Alto Rischio (EU AI Act, Art. 9-14) e classificazione SaMD Class IIa (MDR UE 2017/745, Regola 11). Implementazione di meccanismi *Human-in-the-Loop*, mitigazione del *bias* di automazione e registro di audit non ripudiabile (ISO 27001 / NIS2).  
-* 🟡 **02. DORA / NIS2 Compliance Framework Assessment** — Valutazione della resilienza operativa digitale e gestione del rischio ICT per infrastrutture critiche.
-* 🟡 **03. Third-Party Risk Management (TPRM) Audit & Vendor Assessment** — Framework di valutazione e gestione del rischio della supply chain e dei fornitori terzi.
+* 🟡 **03. DORA / NIS2 Compliance Framework Assessment** — Valutazione della resilienza operativa digitale e gestione del rischio ICT per infrastrutture critiche.
+* 🟡 **04. Third-Party Risk Management (TPRM) Audit & Vendor Assessment** — Framework di valutazione e gestione del rischio della supply chain e dei fornitori terzi.
 
 ---
 
 ## 🎯 Competenze Chiave Dimostrate nel Portfolio
 
-* **Framework Mapping & Compliance Integrata:** Allineamento operativo tra controlli NIST CSF v1.1 e requisiti ISO/IEC 27001:2022.
-* **Audit del Rischio & Rilievi Tecnici:** Traduzione delle evidenze infrastrutturali (IAM, EDR, SIEM, PAM, Cloud Azure) in esiti d'audit (PASS/FAIL) e impatti sul business.
-* **Statement of Applicability (SoA):** Definizione formale di perimetri d'applicazione (Scope) e giustificazioni d'inclusione/esclusione dei controlli.
+* **Framework Mapping & Compliance Integrata:** Allineamento operativo tra controlli NIST CSF v1.1, requisiti ISO/IEC 27001:2022 e normative AI/MDR europee.
+* **Audit del Rischio & Rilievi Tecnici:** Traduzione delle evidenze infrastrutturali (IAM, EDR, SIEM, PAM, Cloud Azure) ed algoritmiche in esiti d'audit (PASS/FAIL) e impatti sul business.
+* **Statement of Applicability (SoA) & Risk Classification:** Definizione formale di perimetri d'applicazione (Scope) e categorizzazione dei rischi di sistema.
 * **Executive Advisory:** Formulazione di report d'audit e roadmap triennali di remediation per Board e CISO.
 
 ---
