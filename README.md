@@ -25,6 +25,7 @@ La valutazione esamina in modo sistematico i controlli organizzativi, procedural
 ### 📄 Report Executive e PDF Ufficiali (`/docs`)
 * 📂 [NIST CSF v1.1 Gap Analysis Consolidata (PDF)](docs/Aetheris_Therapeutics_NIST_CSF_Gap_Analysis_Consolidated.pdf)  
   *Report completo di 10 pagine con l'analisi dei 5 domini core NIST, esiti d'audit (PASS/FAIL/NA) e motivazioni tecniche.*
+* 📂 [Case Study & Interviews Evidences (PDF)](docs/Aetheris_Therapeutics_Case_Study_and_Interviews.pdf)
 * 📂 [ISO/IEC 27001:2022 — Mandatory Clauses Checklist (PDF)](docs/iso27001_mandatory_clauses_checklist.pdf)  
   *Guida operativa d'ispezione per Lead Auditor sui 30 requisiti normativi obbligatori delle Clausole 4–10.*
 * 📂 [ISO/IEC 27001:2022 — Annex A & SoA Toolkit (PDF)](docs/iso27001_annex_a_checklist.pdf)  
