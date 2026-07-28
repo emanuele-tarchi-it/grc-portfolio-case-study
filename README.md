@@ -17,10 +17,10 @@ Valutazione approfondita della postura di sicurezza e del livello di maturità d
 
 * 📂 **[Esplora la cartella del progetto](./01-aetheris-therapeutics)**
 * 📄 **Deliverables PDF Principali**:
-  * [NIST CSF v1.1 Gap Analysis Consolidata (PDF)](./01-aetheris-therapeutics/docs/Aetheris_Therapeutics_NIST_CSF_Gap_Analysis_Consolidated.pdf)
-  * [Case Study & Fieldwork Evidences (PDF)](./01-aetheris-therapeutics/docs/Aetheris_Therapeutics_Case_Study_and_Interviews.pdf)
-  * [ISO 27001:2022 Mandatory Clauses Audit Report (PDF)](./01-aetheris-therapeutics/docs/Aetheris_Therapeutics_ISO27001_Mandatory_Clauses_Audit.pdf)
-  * [ISO 27001:2022 Statement of Applicability - SoA Evaluated (PDF)](./01-aetheris-therapeutics/docs/Aetheris_Therapeutics_ISO27001_Annex_A_SoA_Evaluated.pdf)
+  * 📂 [NIST CSF v1.1 Gap Analysis Consolidata (PDF)](01-aetheris-therapeutics/docs/Aetheris_Therapeutics_NIST_CSF_Gap_Analysis_Consolidated.pdf)
+* 📂 [Case Study & Fieldwork Evidences (PDF)](01-aetheris-therapeutics/docs/Aetheris_Therapeutics_Case_Study_and_Interviews.pdf)
+* 📂 [ISO 27001:2022 Mandatory Clauses Audit Report (PDF)](01-aetheris-therapeutics/docs/Aetheris_Therapeutics_ISO27001_Mandatory_Clauses_Audit.pdf)
+* 📂 [ISO 27001:2022 Statement of Applicability - SoA Evaluated (PDF)](01-aetheris-therapeutics/docs/Aetheris_Therapeutics_ISO27001_Annex_A_SoA_Evaluated.pdf)
 
 ---
 
