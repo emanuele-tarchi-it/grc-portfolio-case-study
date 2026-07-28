@@ -32,13 +32,14 @@ La valutazione esamina in modo sistematico i controlli organizzativi, procedural
 
 ### 📝 Documentazione di Dettaglio e Sorgenti (`markdown/`)
 Per la consultazione rapida e nativa all'interno di GitHub:
-* 📄 [00 — Case Study & Interviews](markdown/00_Case_Study_and_Interviews.md) *(Profilo aziendale, interviste ed evidenze)*
-* 📄 [01 — Identify (ID)](markdown/01_Identify.md) *(Asset Management, Risk Assessment, Governance)*
-* 📄 [02 — Protect (PR)](markdown/02_Protect.md) *(Access Control, Data Security, Patching, Training)*
-* 📄 [03 — Detect (DE)](markdown/03_Detect.md) *(Anomaly Detection, Continuous Monitoring, SIEM)*
-* 📄 [04 — Respond (RS)](markdown/04_Respond.md) *(Incident Response, Digital Forensics, Escalation)*
-* 📄 [05 — Recover (RC)](markdown/05_Recover.md) *(Disaster Recovery, Resilienza Operativa, PR/Crisis)*
+* 📄 [00 — Case Study & Interviews](markdown/00_Case_Study_and_Interviews.md) *(Profilo aziendale, trascrizione interviste ed evidenze di campo)*
+* 📄 [01 — Identify (ID)](markdown/01_Identify.md) *(Asset Management, Risk Assessment, Business Environment e Governance)*
+* 📄 [02 — Protect (PR)](markdown/02_Protect.md) *(Access Control, IAM/PAM, Data Security, Patching e Awareness Training)*
+* 📄 [03 — Detect (DE)](markdown/03_Detect.md) *(Anomaly Detection, Continuous Monitoring, EDR e Architettura SIEM)*
+* 📄 [04 — Respond (RS)](markdown/04_Respond.md) *(Incident Response Plan, Digital Forensics, Mitigazione ed Escalation)*
+* 📄 [05 — Recover (RC)](markdown/05_Recover.md) *(Disaster Recovery, Resilienza Operativa, Backup Immutabili e Crisis PR)*
 * 🎯 [Executive Roadmap](markdown/Executive_Roadmap.md) *(Piano Triennale di Remediation Strategica e Programma CISO)*
+* 📄 [ISO 27001 Mandatory Clauses Audit](markdown/ISO27001_Mandatory_Clauses_Audit.md) *(Analisi in testo dei 30 requisiti normativi obbligatori delle Clausole 4-10)*
 
 ---
 
