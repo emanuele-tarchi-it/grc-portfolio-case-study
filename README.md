@@ -22,14 +22,15 @@ La valutazione esamina in modo sistematico i controlli organizzativi, procedural
 
 ## 🗂️ Struttura del Portfolio e Deliverables
 
-### 📄 Report Executive e PDF Ufficiali (`/docs`)
+### 📄 Executive Audit Reports & Deliverables (`/docs`)
 * 📂 [NIST CSF v1.1 Gap Analysis Consolidata (PDF)](docs/Aetheris_Therapeutics_NIST_CSF_Gap_Analysis_Consolidated.pdf)  
   *Report completo di 10 pagine con l'analisi dei 5 domini core NIST, esiti d'audit (PASS/FAIL/NA) e motivazioni tecniche.*
-* 📂 [Case Study & Interviews Evidences (PDF)](docs/Aetheris_Therapeutics_Case_Study_and_Interviews.pdf)
-* 📂 [ISO/IEC 27001:2022 — Mandatory Clauses Checklist (PDF)](docs/iso27001_mandatory_clauses_checklist.pdf)  
-  *Guida operativa d'ispezione per Lead Auditor sui 30 requisiti normativi obbligatori delle Clausole 4–10.*
-* 📂 [ISO/IEC 27001:2022 — Annex A & SoA Toolkit (PDF)](docs/iso27001_annex_a_checklist.pdf)  
-  *Strumento per la Statement of Applicability (SoA) sui 93 controlli suddivisi nei 4 temi ufficiali.*
+* 📂 [Case Study & Interviews Fieldwork Evidences (PDF)](docs/Aetheris_Therapeutics_Case_Study_and_Interviews.pdf)  
+  *Profilo di Aetheris Therapeutics S.p.A. e sintesi analitica delle interviste d'audit con gli stakeholder.*
+* 📂 [ISO/IEC 27001:2022 — Mandatory Clauses Audit Report (PDF)](docs/Aetheris_Therapeutics_ISO27001_Mandatory_Clauses_Audit.pdf)  
+  *Valutazione d'audit formale sui 30 requisiti normativi obbligatori delle Clausole 4–10 con rilievi ed evidenze.*
+* 📂 [ISO/IEC 27001:2022 — Statement of Applicability (SoA) Evaluated (PDF)](docs/Aetheris_Therapeutics_ISO27001_Annex_A_SoA_Evaluated.pdf)  
+  *Dichiarazione di Applicabilità (SoA) compilata e valutata sui 93 controlli dell'Annex A con giustificazioni tecniche.*
 
 ### 📝 Documentazione di Dettaglio e Sorgenti (`/markdown`)
 Per la consultazione rapida e nativa all'interno di GitHub:
