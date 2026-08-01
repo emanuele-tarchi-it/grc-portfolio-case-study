@@ -99,7 +99,7 @@ Per ciascun rilievo viene definita la **Causa Radice (Root Cause)** e il relativ
 ### ⚠️ NC-MIN-02: Policy di Sicurezza IT Non Aggiornata né Approvata dalla Direzione
 * **Riferimento ISO 27001:** Clausola 5.2 (Policy) & Annex A.5.1 (Policies for Information Security)
 * **Riferimento NIST CSF:** ID.GV-1 (Organizational Cybersecurity Policy)
-* **Evidenza d me d'Audit:** La Policy IT aziendale risale a oltre due anni fa, non integra i riferimenti al cloud Azure e non reca la firma formale di approvazione del CEO.
+* **Evidenza d'Audit:** La Policy IT aziendale risale a oltre due anni fa, non integra i riferimenti al cloud Azure e non reca la firma formale di approvazione del CEO.
 * **Analisi Causa Radice (Root Cause):** Assenza di un ciclo di riesame periodico stabilito per la documentazione di governance.
 * **Azione Correttiva (CAPA):** Revisione complessiva della politica di sicurezza, formalizzazione del controllo versione e approvazione formale della Direzione.
 * **Target Remediation:** **60 Giorni** | **Owner:** Lead Auditor / GRC Specialist
