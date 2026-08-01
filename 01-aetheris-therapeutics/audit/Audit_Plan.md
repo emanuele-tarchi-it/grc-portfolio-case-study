@@ -13,47 +13,47 @@
 
 ## 1. Obiettivo dell’Audit
 
-Il presente Audit Plan definisce le linee guida, le metodologie e il perimetro operativo per l'esecuzione della **Cybersecurity Gap Analysis e ISO 27001 Readiness Audit** presso **Aetheris Therapeutics S.p.A.**[span_3](start_span)[span_3](end_span).
+Il presente Audit Plan definisce le linee guida, le metodologie e il perimetro operativo per l'esecuzione della **Cybersecurity Gap Analysis e ISO 27001 Readiness Audit** presso **Aetheris Therapeutics S.p.A.**.
 
 L’audit ha l’obiettivo di valutare:
-* La conformità formale e sostanziale dell’organizzazione ai requisiti della norma **ISO/IEC 27001:2022** (Clausole Obbligatorie 4–10 ed Annex A)[span_4](start_span)[span_4](end_span).
-* La maturità e la resilienza della postura di sicurezza valutata sui 5 domini core del **NIST Cybersecurity Framework (CSF) v1.1** (*Identify, Protect, Detect, Respond, Recover*)[span_5](start_span)[span_5](end_span).
-* L’efficacia dei controlli tecnici, organizzativi e fisici posti a tutela degli asset strategici dell'azienda (proprietà intellettuale, brevetti molecolari, dati clinici di pazienti PII/GDPR)[span_6](start_span)[span_6](end_span).
-* Le lacune, le non-conformità (NC) e le opportunità di miglioramento (OFI) per la definizione del Piano di Remediation e della Roadmap strategica del CISO[span_7](start_span)[span_7](end_span).
+* La conformità formale e sostanziale dell’organizzazione ai requisiti della norma **ISO/IEC 27001:2022** (Clausole Obbligatorie 4–10 ed Annex A).
+* La maturità e la resilienza della postura di sicurezza valutata sui 5 domini core del **NIST Cybersecurity Framework (CSF) v1.1** (*Identify, Protect, Detect, Respond, Recover*).
+* L’efficacia dei controlli tecnici, organizzativi e fisici posti a tutela degli asset strategici dell'azienda (proprietà intellettuale, brevetti molecolari, dati clinici di pazienti PII/GDPR).
+* Le lacune, le non-conformità (NC) e le opportunità di miglioramento (OFI) per la definizione del Piano di Remediation e della Roadmap strategica del CISO.
 
 ---
 
 ## 2. Scope dell’Audit (Perimetro di Valutazione)
 
 ### 2.1 In Scope
-* **Infrastruttura & Cloud:** Architettura ibrida On-Premise, ambiente Microsoft Azure, tenant Office 365, directory Active Directory, connessioni VPN e Next-Gen Firewall Palo Alto[span_8](start_span)[span_8](end_span).
-* **Centri di Ricerca & Laboratori:** Reti e sistemi dei laboratori R&D, workstation per l'analisi clinica e server dedicati alla proprietà intellettuale[span_9](start_span)[span_9](end_span).
-* **Dispositivi Utente (Endpoints):** Tutti i laptop aziendali, workstation e dispositivi mobile in uso al personale[span_10](start_span)[span_10](end_span).
-* **Governance, Risk & Compliance:** Politiche di sicurezza, procedure operative, Registro dei Rischi, gestione terze parti/SaaS e conformità GDPR[span_11](start_span)[span_11](end_span).
-* **Persone & Ruoli:** Personale chiave dei reparti IT, Cybersecurity, HR, Legal & Compliance e R&D[span_12](start_span)[span_12](end_span).
+* **Infrastruttura & Cloud:** Architettura ibrida On-Premise, ambiente Microsoft Azure, tenant Office 365, directory Active Directory, connessioni VPN e Next-Gen Firewall Palo Alto.
+* **Centri di Ricerca & Laboratori:** Reti e sistemi dei laboratori R&D, workstation per l'analisi clinica e server dedicati alla proprietà intellettuale.
+* **Dispositivi Utente (Endpoints):** Tutti i laptop aziendali, workstation e dispositivi mobile in uso al personale.
+* **Governance, Risk & Compliance:** Politiche di sicurezza, procedure operative, Registro dei Rischi, gestione terze parti/SaaS e conformità GDPR.
+* **Persone & Ruoli:** Personale chiave dei reparti IT, Cybersecurity, HR, Legal & Compliance e R&D.
 
 ### 2.2 Out of Scope
-* Sistemi IT e portali clinici esterni gestiti interamente da Organizzazioni di Ricerca a Contratto (CRO) terze non contrattualizzate direttamene per il SGSI.
+* Sistemi IT e portali clinici esterni gestiti interamente da Organizzazioni di Ricerca a Contratto (CRO) terze non contrattualizzate direttamente per il SGSI.
 * Dispositivi personali non autorizzati (BYOD) non connessi alle reti aziendali.
 
 ---
 
 ## 3. Criteri di Audit e Normative applicabili
 
-La verifica viene condotta a fronte dei seguenti riferimenti normativi e tecnici[span_13](start_span)[span_13](end_span):
-1. **ISO/IEC 27001:2022:** Requisiti normativi delle Clausole 4–10 e 93 controlli dell'Annex A[span_14](start_span)[span_14](end_span).
-2. **NIST Cybersecurity Framework v1.1:** Domini ID, PR, DE, RS, RC[span_15](start_span)[span_15](end_span).
-3. **Regolamento UE 2016/679 (GDPR):** Tutela dei dati personali e sensibili dei pazienti/dipendenti[span_16](start_span)[span_16](end_span).
+La verifica viene condotta a fronte dei seguenti riferimenti normativi e tecnici:
+1. **ISO/IEC 27001:2022:** Requisiti normativi delle Clausole 4–10 e 93 controlli dell'Annex A.
+2. **NIST Cybersecurity Framework v1.1:** Domini ID, PR, DE, RS, RC.
+3. **Regolamento UE 2016/679 (GDPR):** Tutela dei dati personali e sensibili dei pazienti/dipendenti.
 4. **NIST SP 800-61 Rev. 2:** Best practice per la gestione degli incidenti di sicurezza.
 
 ---
 
 ## 4. Metodologia e Tecniche di Audit (ISO 19011)
 
-L'audit adotta la metodologia stabilita dallo standard **ISO 19011:2018** mediante le seguenti tecniche[span_17](start_span)[span_17](end_span):
-* **Interviste Strutturate:** Colloqui diretti con i responsabili dei singoli processi (IT, Security, HR, Legal)[span_18](start_span)[span_18](end_span).
-* **Analisi Documentale:** Esame di policy, procedure, registri di formazione, contratti di lavoro e SLA con i fornitori[span_19](start_span)[span_19](end_span).
-* **Fieldwork & Walkthrough Tecnici:** Verifica pratica delle configurazioni (Active Directory, Azure IAM, ruoli Palo Alto, regole VPN, EDR)[span_20](start_span)[span_20](end_span).
+L'audit adotta la metodologia stabilita dallo standard **ISO 19011:2018** mediante le seguenti tecniche:
+* **Interviste Strutturate:** Colloqui diretti con i responsabili dei singoli processi (IT, Security, HR, Legal).
+* **Analisi Documentale:** Esame di policy, procedure, registri di formazione, contratti di lavoro e SLA con i fornitori.
+* **Fieldwork & Walkthrough Tecnici:** Verifica pratica delle configurazioni (Active Directory, Azure IAM, ruoli Palo Alto, regole VPN, EDR).
 * **Campionamento Statistico:** Verifica a campione su utenze attive, contratti di lavoro, dischi cifrati BitLocker e log di sistema.
 
 ---
@@ -61,8 +61,8 @@ L'audit adotta la metodologia stabilita dallo standard **ISO 19011:2018** median
 ## 5. Ruoli, Responsabilità e Calendario Interviste
 
 ### 5.1 Team d'Audit
-* **Lead Auditor:** Emanuele Tarchi (ISO 27001 Lead Auditor Trainee / GRC Specialist)[span_21](start_span)[span_21](end_span)
-* **Audit Support & Technical Escort:** IT Director & Senior Systems Administrator[span_22](start_span)[span_22](end_span)
+* **Lead Auditor:** Emanuele Tarchi (ISO 27001 Lead Auditor Trainee / GRC Specialist)
+* **Audit Support & Technical Escort:** IT Director & Senior Systems Administrator
 
 ### 5.2 Calendario delle Sessioni d'Intervista e Verifiche
 | Data / Fase | Ruolo Intervistato / Area | Oggetto della Verifica | Criterio ISO/NIST |
