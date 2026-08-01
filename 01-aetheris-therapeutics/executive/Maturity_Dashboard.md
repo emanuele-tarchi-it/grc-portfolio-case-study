@@ -1,9 +1,9 @@
-# 🗺️ Strategic Implementation Roadmap (3 - 6 - 12 Mesi)
-## Piano di Remediation e Percorso verso la Certificazione ISO/IEC 27001:2022
+# 📊 Cybersecurity Maturity Dashboard — Aetheris Therapeutics S.p.A.
+## Quadro di Sintesi della Maturità GRC (NIST CSF v1.1 & ISO/IEC 27001:2022)
 
-**Standard di Riferimento:** ISO/IEC 27001:2022 & NIST CSF v1.1  
+**Standard di Riferimento:** NIST CSF v1.1 & ISO/IEC 27001:2022  
 **Organizzazione:** Aetheris Therapeutics S.p.A.  
-**Rif. Documento:** EXEC-RDM-2026-03  
+**Rif. Documento:** EXEC-DSH-2026-02  
 **Versione:** 1.0  
 **Stato:** Approvato  
 **Classificazione:** Riservato / Riservato al Board  
@@ -11,91 +11,83 @@
 
 ---
 
-## 1. Visone Strategica e Timeline Complessiva
+## 1. Executive Summary e Livello di Maturità Complessivo
 
-La presente **Strategic Roadmap** scandisce la traiettoria operativa e metodologica che **Aetheris Therapeutics S.p.A.** seguirà nei prossimi 12 mesi. 
+L'attività di assessment condotta ad **Agosto 2026** ha assegnato ad **Aetheris Therapeutics S.p.A.** un livello di maturità complessivo di **1.74 / 5.0 (Tier 1 - Partial / Reactive)** secondo la scala di maturità CMMI/NIST.
 
-L'obiettivo principale è colmare le Non-Conformità emerse nell'audit di **Agosto 2026**, elevare la maturità cyber aziendale dal livello attuale (Tier 1) a quello target (Tier 3) e guidare l'organizzazione all'ottenimento della certificazione **ISO/IEC 27001:2022** entro **Agosto 2027**.
-
----
-
-## 2. Matrice Sintetica delle Fasi Temporali
-
-| Fase | Orizzonte Temporale | Focus Strategico | Obiettivo Principale |
-| :--- | :--- | :--- | :--- |
-| **Fase 1** | **Mesi 1 - 3 (Q3/Q4 2026)** | **Emergency Mitigation & GDPR Base** | Abbattimento delle 5 Non-Conformità Maggiori e messa in sicurezza degli accessi remoti. |
-| **Fase 2** | **Mesi 4 - 6 (Q1 2027)** | **Technical Controls & SOC Deploy** | Implementazione PAM, attivazione SIEM/SOC h24 e strumento automatizzato ITAM. |
-| **Fase 3** | **Mesi 7 - 9 (Q2 2027)** | **SGSI Governance & Policy Rollout** | Aggiornamento documentale, formazione awareness e gestione sicurezza fornitori. |
-| **Fase 4** | **Mesi 10 - 12 (Q3 2027)** | **Internal Audit & Certification** | Re-audit interno ISO 19011, Management Review e Audit di Certificazione Stage 1 & 2. |
+L'organizzazione presenta buone basi infrastrutturali e di protezione fisica (Backup, Firewall, Badge), ma mostra significative lacune procedurali e di monitoraggio continuo nei domini di Governance, Risk Management e Incident Response.
 
 ---
 
-## 3. Dettaglio Operativo delle Fasi di Implementazione
+## 2. NIST Cybersecurity Framework v1.1 — Valutazione per Domini
 
-### 🚨 FASE 1: Mesi 1 – 3 (Settembre – Novembre 2026) — Remediation Critica
+### 2.1 Tabella Sinottica per Funzione Core
 
-#### Mese 1: Enforce della Sicurezza sugli Accessi Remoti & Privileged Access
-* **Azione 1.1 (MFA su VPN):** Integrazione gateway Palo Alto con Azure AD via SAML 2.0 e applicazione regole di Conditional Access con MFA obbligatorio per tutti gli utenti remoti. *(Ref: NC-MAJ-01 / RTP-01)*
-* **Azione 1.2 (Privileged Accounts Management):** Disattivazione credenziali `Domain Admin` condivise; assegnazione di account nominali distinti per le attività sistemistiche. *(Ref: NC-MAJ-02 / RTP-02)*
-
-#### Mese 2: Compliance Privacy & Incident Response Framework
-* **Azione 1.3 (Registro Trattamenti GDPR):** Mappatura dei flussi dati clinici e PII nei laboratori R&D e redazione formale del Registro Art. 30 GDPR. *(Ref: NC-MAJ-04 / RTP-03)*
-* **Azione 1.4 (Incident Response Plan):** Stesura dell'Incident Response Plan (IRP) conforme a NIST SP 800-61, formalizzazione della matice di escalation e costituzione del CIRT. *(Ref: NC-MAJ-03 / RTP-05)*
-
-#### Mese 3: Testing & Risk Treatment Review
-* **Azione 1.5 (Tabletop Simulation):** Esecuzione di una simulazione d'incidente (Tabletop exercise) con la partecipazione del Board e del CIRT per validare l'IRP.
-* **Azione 1.6 (Milestone Check 1):** Verifica dell'azzeramento dei rischi critici `RISK-01` e `RISK-02`.
+| Funzione NIST Core | Punteggio Attuale | Target Anno 1 | Gap | Livello di Maturità Corrente |
+| :--- | :---: | :---: | :---: | :--- |
+| **IDENTIFY (ID)** | **1.4 / 5.0** | 3.5 / 5.0 | -2.1 | Tier 1 — Gestione asset manuale, manca Registro GDPR |
+| **PROTECT (PR)** | **2.1 / 5.0** | 4.0 / 5.0 | -1.9 | Tier 2 — Cifratura attiva, ma assenza di MFA e PAM |
+| **DETECT (DE)** | **1.2 / 5.0** | 3.5 / 5.0 | -2.3 | Tier 1 — Assenza di SIEM, log non correlati h24 |
+| **RESPOND (RS)** | **1.0 / 5.0** | 3.5 / 5.0 | -2.5 | Tier 1 — Nessun Incident Response Plan formalizzato |
+| **RECOVER (RC)** | **3.0 / 5.0** | 4.0 / 5.0 | -1.0 | Tier 3 — Backup immutabili su Azure e test di DR |
 
 ---
 
-### 🟠 FASE 2: Mesi 4 – 6 (Dicembre 2026 – Febbraio 2027) — Technical Controls & Monitoring
+### 2.2 Visualizzazione Grafica dello Stato dei Domini NIST
 
-#### Mese 4: Implementazione PAM Vault & ITAM Automation
-* **Azione 2.1 (PAM Vault Rollout):** Deploy della soluzione Privileged Access Management per la rotazione automatica e la gestione protetta delle password di root e amministrazione. *(Ref: NC-MAJ-02 / RTP-02)*
-* **Azione 2.2 (IT Asset Discovery):** Installazione dello strumento di IT Asset Management con discovery automatica dei dispositivi connessi alla rete. *(Ref: NC-MIN-01 / RTP-06)*
-
-#### Mese 5: Deploy SIEM Sentinel & Attivazione SOC h24
-* **Azione 2.3 (SIEM Integration):** Configurazione di Microsoft Sentinel ed inoltro dei log prodotte da Firewall Palo Alto, Active Directory, Azure AD e server R&D. *(Ref: NC-MAJ-05 / RTP-04)*
-* **Azione 2.4 (MSSP SOC Onboarding):** Attivazione del servizio SOC gestito in outsourcing h24 per la correlazione degli eventi e l'Incident Escalation. *(Ref: RTP-04)*
-
-#### Mese 6: Data Loss Prevention & Endpoint Protection
-* **Azione 2.5 (Purview DLP Enforce):** Configurazione delle policy DLP su Microsoft 365 / Purview per bloccare l'uscita non autorizzata di brevetti e PII. *(Ref: RTP-03 / OFI-03)*
-* **Azione 2.6 (Milestone Check 2):** Collaudo del flusso di segnalazione SOC ed azzeramento del rischio `RISK-04`.
+* **Identify (1.4 / 5.0):** `[██░░░░░░░░]` **28%**
+* **Protect (2.1 / 5.0):** `[████░░░░░░]` **42%**
+* **Detect (1.2 / 5.0):** `[█░░░░░░░░░]` **24%**
+* **Respond (1.0 / 5.0):** `[█░░░░░░░░░]` **20%**
+* **Recover (3.0 / 5.0):** `[██████░░░░]` **60%**
 
 ---
 
-### 🟡 FASE 3: Mesi 7 – 9 (Marzo – Maggio 2027) — Governance & Security Culture
+## 3. ISO/IEC 27001:2022 Annex A — Stato di Conformità dei Controlli
 
-#### Mese 7: Security Policy Rollout & Supplier Governance
-* **Azione 3.1 (Politica di Sicurezza SGSI):** Revisione, formalizzazione e approvazione da parte del Board della Policy IT e delle procedure operative. *(Ref: NC-MIN-02)*
-* **Azione 3.2 (Supplier Risk Management):** Introduzione del Security Annex e clausole di audit nei contratti con fornitori SaaS/IT terzi. *(Ref: NC-MIN-04 / RTP-07)*
+I 93 controlli dell'Annex A di ISO 27001:2022 sono stati valutati e raggruppati nelle 4 macro-categorie tematiche stabilite dal nuovo aggiornamento dello standard:
 
-#### Mese 8: Security Awareness & HR Screening
-* **Azione 3.3 (Phishing Campaign & Training):** Avvio delle campagne periodiche di Phishing Simulation per tutto il personale dipendente. *(Ref: OFI-02)*
-* **Azione 3.4 (HR Onboarding Check-list):** Formalizzazione della procedura di screening del personale neo-assunto con accesso ad asset critici. *(Ref: NC-MIN-03)*
+| Categoria Controlli ISO | Controlli Totali | Conformi (PASS) | Non Conformi (NC) | % Conformità Attuale |
+| :--- | :---: | :---: | :---: | :---: |
+| **A.5 Controlli Organizzativi** | 37 | 1 | 36 | **2.7%** |
+| **A.6 Controlli sul Personale** | 8 | 0 | 8 | **0.0%** |
+| **A.7 Controlli Fisici** | 14 | 1 | 13 | **7.1%** |
+| **A.8 Controlli Tecnologici** | 34 | 2 | 32 | **5.8%** |
+| **TOTALE COMPLESSIVO** | **93** | **4** | **89** | **4.3%** |
+## 4. Analisi dei Gap e Indicatori Chiave di Prestazione (KPI)
 
-#### Mese 9: EDR Upgrade & Pre-Audit Internal Review
-* **Azione 3.5 (EDR Rollout su Workstation):** Upgrade della protezione antivirus su workstation R&D a soluzione EDR comportamentale. *(Ref: OFI-01 / RTP-08)*
-* **Azione 3.6 (Milestone Check 3):** Verifica del 100% di chiusura di tutte le Non-Conformità Maggiori e Minori.
-
----
-
-### 🟢 FASE 4: Mesi 10 – 12 (Giugno – Agosto 2027) — Internal Audit & Certificazione ISO 27001
-
-#### Mese 10: Internal Audit ISO 19011
-* **Azione 4.1 (Internal Audit SGSI):** Esecuzione dell'Audit Interno formale su tutte le clausole ISO 27001:2022 (4–10) e controlli Annex A secondo la norma ISO 19011.
-* **Azione 4.2 (Corrective Action Closeout):** Chiusura delle eventuali osservazioni emerse durante l'audit interno.
-
-#### Mese 11: Management Review (Riesame della Direzione)
-* **Azione 4.3 (Riesame della Direzione):** Convocazione formale del Board per l'approvazione del Riesame della Direzione (Clausola 9.3) e valutazione dell'efficacia del SGSI.
-
-#### Mese 12: Audit di Certificazione Ufficiale (Stage 1 & Stage 2)
-* **Azione 4.4 (Stage 1 Audit):** Verifica documentale da parte dell'Ente di Certificazione accreditato (Verifica conformità SGSI e SoA).
-* **Azione 4.5 (Stage 2 Audit):** Verifica sul campo dell'effettiva applicazione dei controlli e raccomandazione per il **Rilascio della Certificazione ISO/IEC 27001:2022**.
+### 4.1 Gap Principali da Colmare
+1. **Governance & Legal:** Assenza di politiche approvate dalla Direzione e mancanza della mappatura GDPR Art. 30 per la gestione dei dati clinici R&D.
+2. **Identity & Access Management (IAM):** Autenticazione VPN senza MFA e presenza di utenze amministrative condivise prive di sistemi PAM.
+3. **Security Operations & Monitoring:** Assenza di una piattaforma SIEM per la correlazione centralizzata dei log e totale mancanza di presidio SOC h24.
+4. **Resilienza & Incident Response:** Mancanza di un piano formale di risposta agli incidenti (IRP) e assenza di esercitazioni periodiche.
 
 ---
 
-## 4. Controllo Documentale e Approvazione (ISO 27001:2022 Clausola 7.5)
+### 4.2 KPI Target post-Remediation (Proiezione 12 Mesi)
+
+| Indicatore di Prestazione (KPI) | Stato Attuale | Target Anno 1 | Strumento di Misura |
+| :--- | :---: | :---: | :--- |
+| **Copertura MFA su Accessi Remoti** | 0% | **100%** | Audit log Azure AD / Conditional Access |
+| **Utenze Admin Condivise Attive** | 5 | **0** | Active Directory Inventory / PAM Vault |
+| **Copertura Monitoraggio Log SIEM/SOC** | 0% | **100%** | Dashboard Microsoft Sentinel |
+| **Mean Time to Detect (MTTD)** | Non misurabile | **< 15 Minuti** | SLA Servizio MSSP / SOC |
+| **Conformità Controlli ISO 27001 Annex A** | 4.3% | **> 85%** | Re-Audit SGSI Stage 1 |
+
+---
+
+## 5. Roadmap Sintetica di Maturazione (Phased Target)
+
+| Fase | Periodo Target | Focus Operativo Principale |
+| :--- | :--- | :--- |
+| **Fase 1** | **Q3 2026** | **Remediation Critica:** Enforce MFA su VPN, disattivazione admin condivisi, IRP base e Registro GDPR Art. 30. |
+| **Fase 2** | **Q4 2026** | **Strumentazione Tech:** Deploy PAM Vault, attivazione SIEM Sentinel con SOC h24 e ITAM automatico. |
+| **Fase 3** | **Q1 2027** | **Governance & Awareness:** Rollout Policy SGSI, campagne di phishing simulation e Security Annex fornitori. |
+| **Fase 4** | **Q2 2027** | **Audit & Certificazione:** Internal Audit ISO 19011, Management Review e Audit di Certificazione Stage 1/2. |
+
+---
+
+## 6. Controllo Documentale e Approvazione (ISO 27001:2022 Clausola 7.5)
 
 | Ruolo | Nome e Cognome | Stato | Data |
 | :--- | :--- | :--- | :--- |
