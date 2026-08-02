@@ -3,7 +3,6 @@
 ![Portfolio Status](https://img.shields.io/badge/Portfolio-Active-brightgreen)
 ![Domain](https://img.shields.io/badge/Domain-GRC%20%26%20Cybersecurity%20Audit-orange)
 ![Standards](https://img.shields.io/badge/Standards-NIST%20CSF%20%7C%20ISO%2027001%20%7C%20ISO%2019011%20%7C%20ISO%2027005-blue)
-![License](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey)
 
 Benvenuto nel mio repository contenitore dedicato ai progetti e ai casi studio di **Governance, Risk, and Compliance (GRC)**, **Cybersecurity Audit** e **Framework Compliance**.
 
@@ -19,11 +18,11 @@ Valutazione approfondita della postura di sicurezza e del livello di maturità d
 
 * 📁 **Cartella di Progetto:** [Esplora repository e sorgenti Markdown](./01-aetheris-therapeutics)
 
-* 📄 **Documentazione Strategica & Deliverables:**
-  * 📋 **`/audit`**: [Audit Plan](./01-aetheris-therapeutics/audit/Audit_Plan.md), [Audit Checklist](./01-aetheris-therapeutics/audit/Audit_Checklist.md), [Audit Trail](./01-aetheris-therapeutics/audit/Audit_Trail.md), [Matrice Rilievi NC/OFI](./01-aetheris-therapeutics/audit/NC_OFI_Matrix.md) e [Audit Summary Report](./01-aetheris-therapeutics/audit/Audit_Summary.md).
-  * 🎲 **`/risk`**: [Metodologia di Rischio](./01-aetheris-therapeutics/risk/Risk_Methodology.md), [Risk Scoring Model](./01-aetheris-therapeutics/risk/Risk_Scoring_Model.md), [Risk Register](./01-aetheris-therapeutics/risk/Risk_Register.md) e [Risk Treatment Plan (RTP)](./01-aetheris-therapeutics/risk/Risk_Treatment_Plan_RTP.md).
-  * 📊 **`/executive`**: [Executive Summary](./01-aetheris-therapeutics/executive/Executive_Summary.md), [Maturity Dashboard](./01-aetheris-therapeutics/executive/Maturity_Dashboard.md), [Strategic Roadmap 3-6-12](./01-aetheris-therapeutics/executive/Strategic_Roadmap_3-6-12.md) e [Board Presentation Deck](./01-aetheris-therapeutics/executive/Board_Presentation.md).
-  * 📂 **Deliverables PDF (`/docs`):** [NIST Gap Analysis (PDF)](01-aetheris-therapeutics/docs/Aetheris_Therapeutics_NIST_CSF_Gap_Analysis_Consolidated.pdf) e [SoA Evaluated (PDF)](01-aetheris-therapeutics/docs/Aetheris_Therapeutics_ISO27001_Annex_A_SoA_Evaluated.pdf).
+* 📄 **Documentazione Strategica & Deliverables PDF (`/docs`):**
+  * 📋 **`/audit`**: [Audit Plan](./01-aetheris-therapeutics/audit/Audit_Plan.md) ([PDF](./01-aetheris-therapeutics/docs/AUD-PLAN-2026-01_Audit_Plan.pdf)), [Audit Checklist](./01-aetheris-therapeutics/audit/Audit_Checklist.md), [Audit Trail](./01-aetheris-therapeutics/audit/Audit_Trail.md) ([PDF](./01-aetheris-therapeutics/docs/AUD-TR-2026-02_Audit_Trail.pdf)), [Matrice Rilievi NC/OFI](./01-aetheris-therapeutics/audit/NC_OFI_Matrix.md) ([PDF](./01-aetheris-therapeutics/docs/AUD-NC-2026-03_NC_OFI_Matrix.pdf)) e [Audit Summary Report](./01-aetheris-therapeutics/audit/Audit_Summary.md) ([PDF](./01-aetheris-therapeutics/docs/AUD-SUM-2026-03_Audit_Summary_Report.pdf)).
+  * 🎲 **`/risk`**: [Metodologia di Rischio](./01-aetheris-therapeutics/risk/Risk_Methodology.md) ([PDF](./01-aetheris-therapeutics/docs/RSK-MTH-2026-01_Risk_Management_Methodology.pdf)), [Risk Scoring Model](./01-aetheris-therapeutics/risk/Risk_Scoring_Model.md), [Risk Register](./01-aetheris-therapeutics/risk/Risk_Register.md) ([PDF](./01-aetheris-therapeutics/docs/RSK-REG-2026-02_Risk_Register.pdf)) e [Risk Treatment Plan (RTP)](./01-aetheris-therapeutics/risk/Risk_Treatment_Plan_RTP.md) ([PDF](./01-aetheris-therapeutics/docs/RSK-RTP-2026-03_Risk_Treatment_Plan.pdf)).
+  * 📊 **`/executive`**: [Executive Summary](./01-aetheris-therapeutics/executive/Executive_Summary.md), [Maturity Dashboard](./01-aetheris-therapeutics/executive/Maturity_Dashboard.md) ([PDF](./01-aetheris-therapeutics/docs/EXEC-DSH-2026-02_Cybersecurity_Maturity_Dashboard.pdf)), [Strategic Roadmap 3-6-12](./01-aetheris-therapeutics/executive/Strategic_Roadmap_3-6-12.md) ([PDF](./01-aetheris-therapeutics/docs/EXEC-RDM-2026-03_Strategic_Implementation_Roadmap.pdf)) e [Board Presentation Deck](./01-aetheris-therapeutics/executive/Board_Presentation.md) ([PDF](./01-aetheris-therapeutics/docs/EXEC-BRD-2026-05_Board_Executive_Deck.pdf)).
+  * 📂 **SoA Evaluated (PDF):** [ISO 27001 Annex A SoA Evaluated (PDF)](01-aetheris-therapeutics/docs/Aetheris_Therapeutics_ISO27001_Annex_A_SoA_Evaluated.pdf).
 
 ---
 
