@@ -2,11 +2,11 @@
 
 ![Portfolio Status](https://img.shields.io/badge/Portfolio-Active-brightgreen)
 ![Domain](https://img.shields.io/badge/Domain-GRC%20%26%20Cybersecurity%20Audit-orange)
-![Standards](https://img.shields.io/badge/Standards-NIST%20CSF%20%7C%20ISO%2027001%20%7C%20ISO%2019011-blue)
+![Standards](https://img.shields.io/badge/Standards-NIST%20CSF%20%7C%20ISO%2027001%20%7C%20ISO%2019011%20%7C%20ISO%2027005-blue)
 
 Benvenuto nel mio repository contenitore dedicato ai progetti e ai casi studio di **Governance, Risk, and Compliance (GRC)**, **Cybersecurity Audit** e **Framework Compliance**.
 
-Questo repository raccoglie valutazioni reali e simulate di gap analysis, audit di conformità secondo lo standard **ISO 19011**, assessment di rischio **ISO 27005** e roadmap strategiche di remediation per organizzazioni operanti in settori regolamentati.
+Questo repository raccoglie valutazioni reali e simulate di gap analysis, audit di conformità secondo lo standard **ISO 19011:2018**, assessment di rischio **ISO/IEC 27005:2022** e roadmap strategiche di remediation per organizzazioni operanti in settori ad alto rischio o regolamentati.
 
 ---
 
@@ -19,9 +19,9 @@ Valutazione approfondita della postura di sicurezza e del livello di maturità d
 * 📁 **Cartella di Progetto:** [Esplora repository e sorgenti Markdown](./01-aetheris-therapeutics)
 
 * 📄 **Documentazione Strategica & Deliverables:**
-  * 📋 **`/audit`**: [Audit Plan](./01-aetheris-therapeutics/audit/Audit_Plan.md), [Audit Trail](./01-aetheris-therapeutics/audit/Audit_Trail.md) e [Matrice Rilievi NC/OFI](./01-aetheris-therapeutics/audit/NC_OFI_Matrix.md).
-  * 🎲 **`/risk`**: [Metodologia di Rischio](./01-aetheris-therapeutics/risk/Risk_Methodology.md), [Risk Register](./01-aetheris-therapeutics/risk/Risk_Register.md) e [Risk Treatment Plan (RTP)](./01-aetheris-therapeutics/risk/Risk_Treatment_Plan_RTP.md).
-  * 📊 **`/executive`**: [Executive Summary](./01-aetheris-therapeutics/executive/Executive_Summary.md), [Maturity Dashboard](./01-aetheris-therapeutics/executive/Maturity_Dashboard.md) e [Roadmap 3-6-12 Mesi](./01-aetheris-therapeutics/executive/Strategic_Roadmap_3-6-12.md).
+  * 📋 **`/audit`**: [Audit Plan](./01-aetheris-therapeutics/audit/Audit_Plan.md), [Audit Checklist](./01-aetheris-therapeutics/audit/Audit_Checklist.md), [Audit Trail](./01-aetheris-therapeutics/audit/Audit_Trail.md), [Matrice Rilievi NC/OFI](./01-aetheris-therapeutics/audit/NC_OFI_Matrix.md) e [Audit Summary Report](./01-aetheris-therapeutics/audit/Audit_Summary.md).
+  * 🎲 **`/risk`**: [Metodologia di Rischio](./01-aetheris-therapeutics/risk/Risk_Methodology.md), [Risk Scoring Model](./01-aetheris-therapeutics/risk/Risk_Scoring_Model.md), [Risk Register](./01-aetheris-therapeutics/risk/Risk_Register.md) e [Risk Treatment Plan (RTP)](./01-aetheris-therapeutics/risk/Risk_Treatment_Plan_RTP.md).
+  * 📊 **`/executive`**: [Executive Summary](./01-aetheris-therapeutics/executive/Executive_Summary.md), [Maturity Dashboard](./01-aetheris-therapeutics/executive/Maturity_Dashboard.md), [Strategic Roadmap 3-6-12](./01-aetheris-therapeutics/executive/Strategic_Roadmap_3-6-12.md) e [Board Presentation Deck](./01-aetheris-therapeutics/executive/Board_Presentation.md).
   * 📂 **Deliverables PDF (`/docs`):** [NIST Gap Analysis (PDF)](01-aetheris-therapeutics/docs/Aetheris_Therapeutics_NIST_CSF_Gap_Analysis_Consolidated.pdf) e [SoA Evaluated (PDF)](01-aetheris-therapeutics/docs/Aetheris_Therapeutics_ISO27001_Annex_A_SoA_Evaluated.pdf).
 
 ---
@@ -48,9 +48,9 @@ Valutazione approfondita della conformità per sistemi di supporto alle decision
 ## 🎯 Competenze Chiave Dimostrate nel Portfolio
 
 * **Framework Mapping & Compliance Integrata:** Allineamento operativo tra controlli NIST CSF v1.1, requisiti ISO/IEC 27001:2022 e normative AI/MDR europee.
-* **Audit Methodology (ISO 19011:2018):** Pianificazione ed esecuzione d'audit, conduzione interviste sul campo, tracciamento Working Papers e gestione delle CAPA (Corrective and Preventive Actions).
-* **Risk Assessment & Treatment (ISO 27005:2022):** Definizione della matrice $5 \times 5$, quantificazione del rischio inerente e residuale, formulazione del Risk Treatment Plan (RTP) con pianificazione finanziaria.
-* **Executive Advisory & Board Governance:** Traduzione delle lacune tecniche (IAM, PAM, SIEM, SOC, EDR) in report ad alto valore per CISO, Board e CEO.
+* **Audit Methodology (ISO 19011:2018):** Pianificazione formale, questionnaire d'ispezione (Checklist), conduzione interviste sul campo (Audit Trail), formulazione dei rilievi (NC/OFI), relazione di sintesi (Audit Summary) e gestione delle CAPA.
+* **Risk Assessment & Valuation (ISO 27005:2022):** Modellizzazione matematica ($P \times I$), definizione della Matrice $5 \times 5$, valutazione del rischio inerente e residuale, definizione del Risk Appetite e formulazione del Risk Treatment Plan (RTP) con pianificazione finanziaria.
+* **Executive Advisory & Board Governance:** Traduzione delle lacune tecniche (IAM, PAM, SIEM, SOC, EDR) in report ad alto valore, dashboard di maturità e Board Presentation Deck per CISO, Board e CEO.
 
 ---
 
