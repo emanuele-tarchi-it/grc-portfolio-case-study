@@ -48,7 +48,7 @@ Il repository raccoglie sia le sorgenti operative in Markdown sia i report forma
 * 📂 **`executive/Board_Presentation.md`** | 📄 [EXEC-BRD-2026-05_Board_Executive_Deck.pdf](./docs/EXEC-BRD-2026-05_Board_Executive_Deck.pdf): Board Executive Deck per la presentazione al Consiglio di Amministrazione.
 
 ### 📄 4. Compliance Documentaria Annex A (`/docs`)
-* 📂 **`docs/Aetheris_Therapeutics_ISO27001_Annex_A_SoA_Evaluated.pdf`**: Statement of Applicability (SoA) valutata sui 93 controlli dell'Annex A.
+* 📂 **`docs/Aetheris_Therapeutics_ISO27001_Annex_A_SoA_Evaluated.pdf`** | 📄 [Aetheris_Therapeutics_ISO27001_Annex_A_SoA_Evaluated.pdf](./docs/Aetheris_Therapeutics_ISO27001_Annex_A_SoA_Evaluated.pdf): Statement of Applicability (SoA) valutata sui 93 controlli dell'Annex A.
 
 ---
 
