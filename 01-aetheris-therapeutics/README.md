@@ -5,6 +5,7 @@
 ![ISO/IEC 27005:2022](https://img.shields.io/badge/Risk-ISO%2FIEC%2027005-orange)
 ![ISO 19011:2018](https://img.shields.io/badge/Audit-ISO%2019011-purple)
 ![Status](https://img.shields.io/badge/Audit%20Status-Completed-success)
+![License](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey)
 
 Questo repository raccoglie il pacchetto completo di **Cybersecurity Gap Analysis, Assessment di Rischio e Readiness Audit ISO/IEC 27001:2022** sviluppato per **Aetheris Therapeutics S.p.A.**, azienda biotecnologica impegnata nella ricerca e sviluppo farmaceutico.
 
