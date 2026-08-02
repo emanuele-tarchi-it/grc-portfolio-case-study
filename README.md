@@ -3,6 +3,7 @@
 ![Portfolio Status](https://img.shields.io/badge/Portfolio-Active-brightgreen)
 ![Domain](https://img.shields.io/badge/Domain-GRC%20%26%20Cybersecurity%20Audit-orange)
 ![Standards](https://img.shields.io/badge/Standards-NIST%20CSF%20%7C%20ISO%2027001%20%7C%20ISO%2019011%20%7C%20ISO%2027005-blue)
+![License](https://img.shields.io/badge/License-CC%20BY--NC%204.0-lightgrey)
 
 Benvenuto nel mio repository contenitore dedicato ai progetti e ai casi studio di **Governance, Risk, and Compliance (GRC)**, **Cybersecurity Audit** e **Framework Compliance**.
 
