@@ -24,30 +24,30 @@ L'attività d'audit ha mappato la resilienza dell'infrastruttura sui 5 domini de
 
 ---
 
-## 🗂️ Struttura della Repository
+## 🗂️ Struttura della Repository e Documentazione PDF
 
-Il repository è strutturato in tre macro-aree funzionali per riflettere tutte le fasi operative di un vero ingaggio GRC ed Enterprise Audit:
+Il repository raccoglie sia le sorgenti operative in Markdown sia i report formali in formato PDF contenuti nella cartella `/docs`:
 
 ### 📋 1. Fasi d'Audit & Working Papers (`/audit`)
-* 📂 **`audit/Audit_Plan.md`**: Piano d'Audit formale secondo ISO 19011:2018, perimetro dello SGSI, ruoli, responsabilità e calendario interviste.
+* 📂 **`audit/Audit_Plan.md`** | 📄 [AUD-PLAN-2026-01_Audit_Plan.pdf](./docs/AUD-PLAN-2026-01_Audit_Plan.pdf): Piano d'Audit formale secondo ISO 19011:2018, perimetro SGSI, ruoli e calendario.
 * 📂 **`audit/Audit_Checklist.md`**: Lista di controllo, questionnaire d'ispezione sul campo e campionamenti tecnici.
-* 📂 **`audit/Audit_Trail.md`**: Registro delle attività di fieldwork, trascrizione delle interviste chiave ed esame documentale.
-* 📂 **`audit/NC_OFI_Matrix.md`**: Matrice Ufficiale dei Rilievi (5 NC Major, 4 NC Minor, 3 OFI, 4 PASS) con analisi Causa Radice e Azioni Correttive (CAPA).
-* 📂 **`audit/Audit_Summary.md`**: Rapporto Finale di Sintesi dell'Auditor (ISO 19011 Cl. 6.5) con valutazione e giurisprudenza d'audit.
+* 📂 **`audit/Audit_Trail.md`** | 📄 [AUD-TR-2026-02_Audit_Trail.pdf](./docs/AUD-TR-2026-02_Audit_Trail.pdf): Registro delle attività di fieldwork, trascrizione delle interviste ed esame documentale.
+* 📂 **`audit/NC_OFI_Matrix.md`** | 📄 [AUD-NC-2026-03_NC_OFI_Matrix.pdf](./docs/AUD-NC-2026-03_NC_OFI_Matrix.pdf): Matrice Ufficiale dei Rilievi (5 NC Major, 4 NC Minor, 3 OFI, 4 PASS) con analisi Root Cause e CAPA.
+* 📂 **`audit/Audit_Summary.md`** | 📄 [AUD-SUM-2026-03_Audit_Summary_Report.pdf](./docs/AUD-SUM-2026-03_Audit_Summary_Report.pdf): Rapporto Finale di Sintesi dell'Auditor (ISO 19011 Cl. 6.5).
 
 ### 🎲 2. Risk Management Framework (`/risk`)
-* 📂 **`risk/Risk_Methodology.md`**: Metodologia di valutazione del rischio conforme a ISO 27005:2022 e ISO 27001 Cl. 6.1.2.
+* 📂 **`risk/Risk_Methodology.md`** | 📄 [RSK-MTH-2026-01_Risk_Management_Methodology.pdf](./docs/RSK-MTH-2026-01_Risk_Management_Methodology.pdf): Metodologia di valutazione del rischio conforme a ISO 27005:2022.
 * 📂 **`risk/Risk_Scoring_Model.md`**: Modello matematico di scoring ($P \times I$), Matrice 5x5 e soglie di Risk Appetite.
-* 📂 **`risk/Risk_Register.md`**: Registro formale dei Rischi specifici (Inerenti vs Residuali) collegati agli asset critici di Aetheris S.p.A.
-* 📂 **`risk/Risk_Treatment_Plan_RTP.md`**: Piano di Trattamento del Rischio con allocazione budget (€ 70k), scadenze e criteri di re-audit.
+* 📂 **`risk/Risk_Register.md`** | 📄 [RSK-REG-2026-02_Risk_Register.pdf](./docs/RSK-REG-2026-02_Risk_Register.pdf): Registro formale dei Rischi specifici (Inerenti vs Residuali).
+* 📂 **`risk/Risk_Treatment_Plan_RTP.md`** | 📄 [RSK-RTP-2026-03_Risk_Treatment_Plan.pdf](./docs/RSK-RTP-2026-03_Risk_Treatment_Plan.pdf): Piano di Trattamento del Rischio con allocazione budget (€ 70k).
 
 ### 📊 3. Executive Reporting & Board Governance (`/executive`)
 * 📂 **`executive/Executive_Summary.md`**: Report strategico per il Board e C-Level con analisi CMMI e giustificazione finanziaria dell'investimento.
-* 📂 **`executive/Maturity_Dashboard.md`**: Dashboard di maturità sui domini NIST CSF (Visual Radar Analysis nativa) e conformità controlli ISO 27001 Annex A.
-* 📂 **`executive/Strategic_Roadmap_3-6-12.md`**: Roadmap strategica e operativa a 3, 6 e 12 mesi per il raggiungimento della certificazione.
-* 📂 **`executive/Board_Presentation.md`**: Board Executive Deck per la presentazione al Consiglio di Amministrazione e delibera d'investimento.
+* 📂 **`executive/Maturity_Dashboard.md`** | 📄 [EXEC-DSH-2026-02_Cybersecurity_Maturity_Dashboard.pdf](./docs/EXEC-DSH-2026-02_Cybersecurity_Maturity_Dashboard.pdf): Dashboard di maturità sui domini NIST CSF e conformità controlli ISO 27001 Annex A.
+* 📂 **`executive/Strategic_Roadmap_3-6-12.md`** | 📄 [EXEC-RDM-2026-03_Strategic_Implementation_Roadmap.pdf](./docs/EXEC-RDM-2026-03_Strategic_Implementation_Roadmap.pdf): Roadmap strategica e operativa a 3, 6 e 12 mesi.
+* 📂 **`executive/Board_Presentation.md`** | 📄 [EXEC-BRD-2026-05_Board_Executive_Deck.pdf](./docs/EXEC-BRD-2026-05_Board_Executive_Deck.pdf): Board Executive Deck per la presentazione al Consiglio di Amministrazione.
 
-### 📄 4. Documentazione Integrativa (`/docs`)
+### 📄 4. Compliance Documentaria Annex A (`/docs`)
 * 📂 **`docs/Aetheris_Therapeutics_ISO27001_Annex_A_SoA_Evaluated.pdf`**: Statement of Applicability (SoA) valutata sui 93 controlli dell'Annex A.
 
 ---
