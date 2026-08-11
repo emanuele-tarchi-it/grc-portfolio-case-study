@@ -63,4 +63,4 @@ Valutazione approfondita della conformità per sistemi di supporto alle decision
 ---
 
 **Author:** Emanuele Tarchi  
-*ISO/IEC 27001 Lead Auditor Trainee*
+*ISO/IEC 27001 Lead Auditor*
