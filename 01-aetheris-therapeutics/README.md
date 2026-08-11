@@ -78,4 +78,4 @@ Il **Risk Treatment Plan** approvato prevede un investimento totale nel primo an
 ---
 
 **Lead Auditor & GRC Specialist:** Emanuele Tarchi  
-*ISO/IEC 27001 Lead Auditor Trainee*
+*ISO/IEC 27001 Lead Auditor*
