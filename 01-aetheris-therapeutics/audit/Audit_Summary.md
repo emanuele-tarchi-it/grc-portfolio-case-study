@@ -14,7 +14,7 @@
 ## 1. Dati Generali e Scopo dell'Audit
 
 * **Cliente dell'Audit:** Board dell'Alta Direzione / CEO di Aetheris Therapeutics S.p.A.
-* **Lead Auditor:** Emanuele Tarchi (*ISO/IEC 27001 Lead Auditor Trainee*)
+* **Lead Auditor:** Emanuele Tarchi (*ISO/IEC 27001 Lead Auditor*)
 * **Membri del Team d'Audit:** GRC Specialist Team
 * **Perimetro dello SGSI (Scope):** Sistemi informativi, infrastruttura Cloud Azure/M365, reti di laboratorio R&D e processi di gestione dei dati clinici/PII presso la sede legale e i laboratori centrali.
 * **Obiettivo dell'Audit:** Valutare lo stato di conformità dello SGSI ai requisiti delle Clausole 4–10 di ISO 27001:2022, la copertura dei controlli dell'Annex A e misurare la maturità sui domini del NIST Cybersecurity Framework v1.1.
