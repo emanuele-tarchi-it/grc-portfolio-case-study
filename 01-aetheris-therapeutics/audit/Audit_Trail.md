@@ -18,7 +18,7 @@ Il presente **Audit Trail (Registro dell'Audit)** traccia in modo sistematico tu
 Documenta le interviste condotte, i campionamenti effettuati, l'analisi dei log, la revisione delle configurazioni di rete e la correlazione diretta tra le evidenze obiettivo raccolte e i Rilievi finali (Non-Conformità NC e Opportunità di Miglioramento OFI).
 
 ### Audit Team & Periodo
-* **Lead Auditor:** Emanuele Tarchi (ISO 27001 Lead Auditor Trainee / GRC Specialist)
+* **Lead Auditor:** Emanuele Tarchi (ISO 27001 Lead Auditor / GRC Specialist)
 * **Supporto & Escort Tecnico:** IT Director & Senior Systems Administrator
 * **Fasi Operative:** Preparazione (1 sett.), Fieldwork e Campionamento (2 sett.), Reporting (1 sett.)
 
