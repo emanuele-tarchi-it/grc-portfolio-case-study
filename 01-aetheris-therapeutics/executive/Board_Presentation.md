@@ -1,7 +1,7 @@
 # 🏛️ Board Executive Deck — Cybersecurity Gap Analysis & ISO 27001 Readiness
 ## Relazione Strategica per il Consiglio di Amministrazione — Aetheris Therapeutics S.p.A.
 **Destinatari:** Chief Executive Officer (CEO), Consiglio di Amministrazione (Board of Directors)
-**Relatore:** Emanuele Tarchi (*ISO/IEC 27001 Lead Auditor Trainee*)
+**Relatore:** Emanuele Tarchi (*ISO/IEC 27001 Lead Auditor*)
 **Rif. Documento:** EXEC-BRD-2026-05
 **Data di Presentazione:** 20 Agosto 2026
 **Classificazione:** Riservato / Strettamente Riservato al Board
