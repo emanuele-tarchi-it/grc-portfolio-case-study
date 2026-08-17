@@ -61,7 +61,7 @@ L'audit adotta la metodologia stabilita dallo standard **ISO 19011:2018** median
 ## 5. Ruoli, Responsabilità e Calendario Interviste
 
 ### 5.1 Team d'Audit
-* **Lead Auditor:** Emanuele Tarchi (ISO 27001 Lead Auditor Trainee / GRC Specialist)
+* **Lead Auditor:** Emanuele Tarchi (ISO 27001 Lead Auditor / GRC Specialist)
 * **Audit Support & Technical Escort:** IT Director & Senior Systems Administrator
 
 ### 5.2 Calendario delle Sessioni d'Intervista e Verifiche
