@@ -70,7 +70,7 @@ Consulta il file `LICENSE.md` per maggiori dettagli.
 
 **Emanuele Tarchi**  
 GRC & Cybersecurity Audit  
-ISO/IEC 27001 Lead Auditor Trainee
+ISO/IEC 27001 Lead Auditor
 
 ---
 
